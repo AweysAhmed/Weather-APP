@@ -1,0 +1,2 @@
+module WahooHelper
+end
