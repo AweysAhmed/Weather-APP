@@ -17,7 +17,7 @@ class Weather
     if response.success?
       new(response)
     else
-      raise response.message
+      raise response.body
     end
   end
 end
