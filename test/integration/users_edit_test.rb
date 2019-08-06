@@ -1,7 +1,7 @@
 # frozen_string_literal: true
 
 require 'test_helper'
-
+# testing editing users
 class UsersEditTest < ActionDispatch::IntegrationTest
   def setup
     @user = users(:aweys)
